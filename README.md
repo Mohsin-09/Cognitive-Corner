@@ -22,17 +22,23 @@ The site is built using **PHP, MySQL, Bootstrap 5, and Font Awesome** to deliver
 
 ```
 project-folder/
-│── index.php        # Homepage
-│── profile.php      # User profile page
-│── login.php        # User login
-│── signup.php       # User registration
-│── shop.php         # Shop page (products)
-│── review.php       # Reviews page
-│── suggestions.php  # Custom game suggestions
-│── css/styles.css   # Custom styles
-│── fonts/           # Custom fonts
-│── image/           # Images & product pictures
-│── README.md        # Documentation
+│── index.php           # Homepage
+│── profile.php         # User profile page
+│── login.php           # User login
+│── db.php              # Database Connection
+│── logout.php          # User logout
+│── order_status.php    # Order tracking
+│── order_statuss.php   # Cart Order Tracking
+│── signup.php          # User registration
+│── add_to_cart.php     # Add to cart
+│── checkout.php        # Checkout
+│── cart_checkout.php   # Cart Checkout
+│── shop.php            # Shop page (products)
+│── review.php          # Reviews page
+│── update_password.php # Update password
+│── README.md           # Documentation
+│── css/styles.css      # Custom styles
+│── image/              # Images & product pictures
 ```
 
 ---
