@@ -65,13 +65,13 @@ project-folder/
    - If using **WAMP**: place files inside `www/cognitive-corner/`  
 
 3. **Set Up Database**
-   - Import the provided `cognitive_corner.sql` file into MySQL.  
+   - Import the provided `.sql` files into MySQL.  
    - Update database credentials in your PHP files:
      ```php
      $servername = "localhost";
      $username   = "root";     // change if needed
      $password   = "";         // change if set
-     $dbname     = "cognitive_corner";
+     $dbname     = "cognitive_corner"; //change a/c to the databases 
      ```
 
 4. **Run the Project**
